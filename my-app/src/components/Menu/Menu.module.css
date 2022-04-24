@@ -1,0 +1,20 @@
+.menu__list{
+    display: flex;
+}
+
+.menu__list__item{
+    list-style: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.menu__list__item a{
+    text-decoration: none;
+    padding-bottom: 6px;
+}
+.menu__list__item a:hover{
+    color: #4448DA;
+    border-bottom: 2px solid #4448DA;
+}
+.menu__list__item a:first-child{
+    margin-left: 0;
+}

@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #1F1F1F;
+  font-size: 14px;
+  line-height: 14px;
+}
+@media screen and (max-width: 1140px){
+  .header{
+    padding: 20px 80px;
+  }
+  .main{
+    padding: 24px;
+  }
+  .main__header__option__btn{
+    margin-bottom: 16px;
+  }
+  .main__header{
+    align-items: normal;
+  }
+}
+
+@media screen and (max-width: 974px){
+  .header{
+    padding: 20px 30px;
+  }
+  .menu__list__item{
+    margin-left: 20px;
+  }
+  .menu__profile{
+    margin-left: 20px;
+  }
+  .footer{
+    padding: 48px 100px;
+  }
+}
+
+
+@media screen and (max-width: 888px){
+  .main__header{
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .header__menu{
+    display: none;
+  }
+  .header__burger{
+    display: block;
+  }
+
+
+  .footer{
+    padding: 48px 24px;
+  }
+}
+@media screen and (max-width: 565px){
+  .todo-item span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .footer-menu__list{
+    flex-direction: column;
+  }
+  .footer-menu__list__item{
+    margin: 0 0 32px 0;
+  }
+  .footer-menu__list__item:first-child{
+    margin-top: 48px;
+  }
+  .footer__container{
+    display: block;
+  }
+  .footer__logo{
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 487px){
+  .add-field__item:nth-child(1){
+    display: none;
+  }
+  .add-field__btn{
+    padding: 16px;
+  }
+  .add-field__item:nth-child(2){
+    margin-left: 0;
+  }
+  .main__header__option__btn:nth-child(1){
+    max-width: 84px;
+
+  }
+  .main__header__option__btn:nth-child(2){
+    max-width: 130px;
+
+  }
+  .main__header__option__btn:nth-child(3){
+    max-width: 73px;
+  }
+  .main__header__option__btn{
+    padding: 12px 20px;
+    max-height: 36px;
+    font-size: 12px;
+  }
+  .footer__rights-block{
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+    white-space: nowrap;
+  }
+  .footer__rights-block span{
+    margin-bottom: 16px;
+  }
+
+  .rights-block__privacy-container span:last-child{
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .footer__rights-block{
+    white-space: normal;
+  }
+  .rights-block__privacy-container span {
+    flex-direction: column;
+  }
+  .todo-item__icon{
+    display: none;
+  }
+  .todo-item__icon-mobile{
+    display: block;
+  }
+  .add-field__text{
+    min-width: auto;
+  }
+  .add-field__btn{
+    max-width: 46px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .main__header__options{
+    flex-wrap: wrap;
+  }
+}
